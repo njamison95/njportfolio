@@ -82,60 +82,7 @@ h2 {
     margin-top: 0px
  /* Slide CSS */
 }
-.container {
-  background-color: red;
-  width: 90vw;
-  height: 715px;
-  margin: 0px auto;
-  margin-top: 150px;
-  margin-bottom: 150px;
-}
-.slider-wrapper {
-/*  background-color: blue;*/
-  position: relative;
-  max-width: 700px;
-  float: left;
-  margin: 0 auto;
-}
-.slider {
-/*  background-color: yellowgreen;*/
-  display: flex;
-  aspect-ratio: .98 / 1;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  border-radius: 0.5rem;
-  scrollbar-color: #E56A54 transparent;
-}
-.slider img {
-  flex: 1 0 100%;
-  scroll-snap-align: start;
-  object-fit: cover;
-}
-.slider-nav {
-  display: flex;
-  column-gap: 1rem;
-  position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
-.slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background-color: #E56A54;
-  opacity: 75%;
-  transition: opacity ease 250ms;
-}
-.slider-nav a:hover {
-  opacity: 100%;
-}
-.text-container {
-  width: 45vw;
-  height: 400px;
-  background-color: green;
-  margin-left: 20px;
-  float: left;
+.slide-container {
+  width: 1080px;
+  height: 1080px;
 }

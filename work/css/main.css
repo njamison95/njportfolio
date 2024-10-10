@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  color: #E56A54;
+}
+body {
+  margin: 0;
+  background-color: #212A4F;
+  font-family: "Orbit", sans-serif;
+}
+/*header styles*/
+header {
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flow-root;
+  margin: 0px auto;
+  background-color: #212A4F;
+}
+nav {
+  float: right;
+  margin-right: 50px;
+}
+/* Dropdown Button */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  padding: 20px 40px;
+  margin-left: 20px;
+  font-family: "Orbit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9490B5;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #212A4F;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #E56A54;
+  color: #212A4F;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #9490B5;
+  color: #212A4F;
+}
+/* main */
+h1 {
+  width: 90vw;
+  margin: 0px auto;
+  margin-top: 100px;
+  font-size: 100px;
+  color: #364581;
+/*  background-color: red;*/
+}
+h2 {
+    font-size: 60px;
+    margin-top: 0px
+ /* Slide CSS */
+}
+.container {
+  background-color: red;
+  width: 90vw;
+  height: 715px;
+  margin: 0px auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.slider-wrapper {
+/*  background-color: blue;*/
+  position: relative;
+  max-width: 700px;
+  float: left;
+  margin: 0 auto;
+}
+.slider {
+/*  background-color: yellowgreen;*/
+  display: flex;
+  aspect-ratio: .98 / 1;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 0.5rem;
+  scrollbar-color: #E56A54 transparent;
+}
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #E56A54;
+  opacity: 75%;
+  transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+  opacity: 100%;
+}
+.text-container {
+  width: 45vw;
+  height: 400px;
+  background-color: green;
+  margin-left: 20px;
+  float: left;
+}

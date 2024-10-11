@@ -92,10 +92,11 @@ h2 {
 }
 .slider-wrapper {
 /*  background-color: blue;*/
-  position: relative;
+  width: 80vw;
+/*  position: relative;*/
   max-width: 700px;
   float: left;
-  margin: 0 auto;
+  background-color: red;
 }
 .slider {
 /*  background-color: yellowgreen;*/

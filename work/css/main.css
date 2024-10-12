@@ -15,11 +15,10 @@ header {
   text-transform: uppercase;
   display: flow-root;
   margin: 0px auto;
-  background-color: #212A4F;
+  background-color: #181F3A;
 }
 nav {
   float: right;
-  margin-right: 50px;
 }
 /* Dropdown Button */
 /* The container <div> - needed to position the dropdown content */
@@ -31,7 +30,7 @@ nav {
   background-color: transparent;
   font-size: 16px;
   border: none;
-  padding: 20px 40px;
+  padding: 20px 45.8px;
   margin-left: 20px;
   font-family: "Orbit", sans-serif;
   font-weight: 400;
@@ -42,7 +41,7 @@ nav {
   display: none;
   position: absolute;
   background-color: #9490B5;
-  min-width: 160px;
+  min-width: 150px;
   z-index: 1;
 }
 
@@ -72,7 +71,8 @@ nav {
 h1 {
   width: 90vw;
   margin: 0px auto;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   font-size: 100px;
   color: #364581;
 /*  background-color: red;*/
@@ -81,4 +81,75 @@ h2 {
     font-size: 60px;
     margin-top: 0px
  /* Slide CSS */
+}
+img {
+  width: 800px;
+  height: 800px;
+}
+.square-slider-container {
+  width: 800px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  overflow: hidden;
+  text-align: center; /* to align the slider buttons inside the container */
+}
+.image-container {
+  width: 7200px;
+  height: 800px;
+  position: relative;
+  transition: left 1s;
+  -webkit-transition: left 1s;
+  -moz-transition: left 1s;
+  -o-transition: left 1s;
+}
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+.button-container {
+  top: -30px; /* so that the bttons show up on top of the slides, since we put the button-container right underneath the image-container in the html */
+  position: relative;
+}
+.slider-button {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #E56A54;
+}
+#slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
+  left: 0px; /* this is where we start, so no need to move the image yet */
+}
+#slider-image-2:target ~ .image-container {
+  left: -800px; /* to move the image 800px to the left */
+}
+#slider-image-3:target ~ .image-container {
+  left: -1600px; 
+}
+#slider-image-4:target ~ .image-container {
+  left: -2400px; 
+}
+#slider-image-5:target ~ .image-container {
+  left: -3200px; 
+}
+#slider-image-6:target ~ .image-container {
+  left: -4000px; 
+}
+#slider-image-7:target ~ .image-container {
+  left: -4800px; 
+}
+#slider-image-8:target ~ .image-container {
+  left: -5600px; 
+}
+#slider-image-9:target ~ .image-container {
+  left: -6400px; 
+}
+
+.footer {
+  height: 150px;
+  margin-top: 150px;
+  background-color: #181F3A;
 }

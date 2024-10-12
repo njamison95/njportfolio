@@ -14,9 +14,8 @@ header {
   letter-spacing: 1px;
   text-transform: uppercase;
   display: flow-root;
-  width: 90vw;
   margin: 0px auto;
-/*  background-color: red;*/
+  background-color: #181F3A;
 }
 nav {
   float: right;
@@ -32,7 +31,7 @@ nav {
   background-color: transparent;
   font-size: 16px;
   border: none;
-  padding: 20px 40px;
+  padding: 20px 45.8px;
   margin-left: 20px;
   font-family: "Orbit", sans-serif;
   font-weight: 400;
@@ -43,7 +42,7 @@ nav {
   display: none;
   position: absolute;
   background-color: #9490B5;
-  min-width: 160px;
+  min-width: 150px;
   z-index: 1;
 }
 
@@ -70,7 +69,7 @@ nav {
   color: #212A4F;
 }
 .title {
-  margin-top: 22vh;
+  margin-top: 24vh;
 }
 h3 {
   margin: 0px auto;

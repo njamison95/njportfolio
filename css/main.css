@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  color: #231C2B;
+  color: #5a4870;
 }
 body {
   margin: 0;
@@ -9,13 +9,13 @@ body {
 }
 /*header styles*/
 header {
+  width: 100vw;
   font-weight: 800;
   font-size: 15px;
-  letter-spacing: 1px;
   text-transform: uppercase;
   display: flow-root;
   margin: 0px auto;
-  background-color: #E2DCCA;
+  background-color: #463857;
 }
 nav {
   float: right;
@@ -35,12 +35,13 @@ nav {
   font-family: "Nanum Myeongjo", serif;
   font-weight: 800;
   font-style: normal;
+  color: #F2EEE4;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #A68794;
+  background-color: #32283E;
   font-family: "Nanum Myeongjo", serif;
   font-weight: 800;
   min-width: 150px;
@@ -49,7 +50,7 @@ nav {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #E1DAC7;
+  color: #F2EEE4;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -66,26 +67,26 @@ nav {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #A68794;
-  color: #E1DAC7;
+  background-color: #32283E;
+  color: #F2EEE4;
 }
 .title {
   margin-top: 23vh;
   position: absolute;
-  bottom: 20vh;
-  left: 20vw;
+  bottom: 28vh;
+  left: 30vw;
 }
 .background-image {
   width: 100vw;
   height: 100vh;
-  background-image: url("../images/snflower-1.jpg");
+  background-image: url("../images/sunflower-1.jpg");
   background-size: cover;
   opacity: 30%;
 }
-.white-rectangle {
+.rectangle {
   width: 100vw;
   height: 100vh;
-  background-color: #F2EEE4;
+  background-color: #251e2e;
   position: absolute;
   opacity: 60%;
   top: 58px;
@@ -94,10 +95,10 @@ h3 {
   margin: 0px auto;
   margin-bottom: 30px;
   padding: 0;
-  font-size: 50px;
+  font-size: 3vw;
 /*  background-color: red;*/
   text-align: center;
-  color: #6A3B67;
+  color: #F2EEE4;
 }
 h2 {
   margin: 0px auto;
@@ -109,14 +110,19 @@ h2 {
 h1 {
   margin: 0px auto;
   padding: 0;
-  font-size: 16vw;
+  font-size: 11vw;
 /*  background-color: purple;*/
   text-align: center;
-  color: #6A3B67;
+  color: #F2EEE4;
 }
 p {
   width: 40vw;
   margin: 0px auto;
   margin-top: 50px;
   font-size: 40px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
 }

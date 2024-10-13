@@ -71,6 +71,24 @@ nav {
 }
 .title {
   margin-top: 23vh;
+  position: absolute;
+  bottom: 20vh;
+  left: 20vw;
+}
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/snflower-1.jpg");
+  background-size: cover;
+  opacity: 30%;
+}
+.white-rectangle {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F2EEE4;
+  position: absolute;
+  opacity: 60%;
+  top: 58px;
 }
 h3 {
   margin: 0px auto;

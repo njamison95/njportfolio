@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  color: #E56A54;
+  color: #231C2B;
 }
 body {
   margin: 0;
-  background-color: #212A4F;
-  font-family: "Orbit", sans-serif;
+  background-color: #F2EEE4;
+  font-family: "Nanum Myeongjo", serif;
 }
 /*header styles*/
 header {
@@ -15,7 +15,7 @@ header {
   text-transform: uppercase;
   display: flow-root;
   margin: 0px auto;
-  background-color: #181F3A;
+  background-color: #E2DCCA;
 }
 nav {
   float: right;
@@ -25,7 +25,6 @@ nav {
 .dropdown {
   position: relative;
   display: inline-block;
-  border-radius: 5%;
 }
 .dropbtn {
   background-color: transparent;
@@ -33,22 +32,24 @@ nav {
   border: none;
   padding: 20px 45.8px;
   margin-left: 20px;
-  font-family: "Orbit", sans-serif;
-  font-weight: 400;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
   font-style: normal;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #9490B5;
+  background-color: #A68794;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
   min-width: 150px;
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #212A4F;
+  color: #E1DAC7;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -56,7 +57,7 @@ nav {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #E56A54;
+  background-color: #EECD2A;
   color: #212A4F;
 }
 
@@ -65,19 +66,20 @@ nav {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #9490B5;
-  color: #212A4F;
+  background-color: #A68794;
+  color: #E1DAC7;
 }
 .title {
-  margin-top: 24vh;
+  margin-top: 23vh;
 }
 h3 {
   margin: 0px auto;
+  margin-bottom: 30px;
   padding: 0;
   font-size: 50px;
 /*  background-color: red;*/
   text-align: center;
-  color: #9490B5;
+  color: #6A3B67;
 }
 h2 {
   margin: 0px auto;
@@ -89,11 +91,11 @@ h2 {
 h1 {
   margin: 0px auto;
   padding: 0;
-  font-size: 200px;
+  font-size: 16vw;
 /*  background-color: purple;*/
   text-align: center;
+  color: #6A3B67;
 }
-
 p {
   width: 40vw;
   margin: 0px auto;

@@ -1,21 +1,20 @@
 * {
   box-sizing: border-box;
-  color: #E56A54;
+  color: #231C2B;
 }
 body {
   margin: 0;
-  background-color: #212A4F;
-  font-family: "Orbit", sans-serif;
+  background-color: #F2EEE4;
+  font-family: "Nanum Myeongjo", serif;
 }
 /*header styles*/
 header {
   font-weight: 800;
   font-size: 15px;
-  letter-spacing: 1px;
   text-transform: uppercase;
   display: flow-root;
   margin: 0px auto;
-  background-color: #181F3A;
+  background-color: #EBE5D6;
 }
 nav {
   float: right;
@@ -32,22 +31,24 @@ nav {
   border: none;
   padding: 20px 45.8px;
   margin-left: 20px;
-  font-family: "Orbit", sans-serif;
-  font-weight: 400;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
   font-style: normal;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #9490B5;
+  background-color: #A68794;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
   min-width: 150px;
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #212A4F;
+  color: #E1DAC7;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -55,7 +56,7 @@ nav {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #E56A54;
+  background-color: #EECD2A;
   color: #212A4F;
 }
 
@@ -64,8 +65,8 @@ nav {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #9490B5;
-  color: #212A4F;
+  background-color: #A68794;
+  color: #E1DAC7;
 }
 /* main */
 h1 {
@@ -74,40 +75,82 @@ h1 {
   margin-top: 50px;
   margin-bottom: 100px;
   font-size: 100px;
-  color: #364581;
-/*  background-color: red;*/
+  color: #5A4870;
 }
 h2 {
-    font-size: 60px;
-    margin-top: 0px
+  font-size: 30px;
+  margin-top: 0px
  /* Slide CSS */
 }
-img {
-  width: 800px;
-  height: 800px;
+p {
+  font-size: 17px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.75;
+  color: #231C2B;
+}
+.image-group-container {
+  width: 70vw;
+  height: 700px;
+  margin: 0px auto;
+  margin-bottom: 200px;
+/*  background-color: red;*/
+}
+/*.flyer {
+  width: 35.5vw;
+  margin-right: 3vw;
+}*/
+.ig-single {
+  width: 700px;
+  float: left;
+}
+.description-R {
+  max-width: 350px;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 100px;
+/*  background-color: green;*/
+}
+.description-L {
+  max-width: 350px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 100px;
+/*  background-color: green;*/
+}
+/*GENERAL SLIDESHOW CODE*/
+.slide-text-container {
+  width: 70vw;
+  height: 700px;
+  margin: 0px auto;
+  margin-bottom: 200px;
+/*  background-color: blue;*/
 }
 .square-slider-container {
-  width: 800px;
-  height: 800px;
-  margin-left: auto;
+  width: 700px;
+  height: 700px;
+/*  margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
-  overflow: hidden;
+*/  overflow: hidden;
   text-align: center; /* to align the slider buttons inside the container */
+  float: left;
 }
 .image-container {
   width: 7200px;
-  height: 800px;
+  height: 700px;
   position: relative;
   transition: left 1s;
   -webkit-transition: left 1s;
   -moz-transition: left 1s;
   -o-transition: left 1s;
 }
-.slider-image {
+.square-slider-image {
   float: left;
   margin: 0px;
   padding: 0px;
+  width: 700px;
+  height: 700px;
 }
 .button-container {
   top: -30px; /* so that the bttons show up on top of the slides, since we put the button-container right underneath the image-container in the html */
@@ -120,36 +163,95 @@ img {
   border-radius: 5px;
   background-color: #E56A54;
 }
-#slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
+
+/*COS SPOTIGHT*/
+#cos-spotlight-slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
   left: 0px; /* this is where we start, so no need to move the image yet */
 }
-#slider-image-2:target ~ .image-container {
-  left: -800px; /* to move the image 800px to the left */
+#cos-spotlight-slider-image-2:target ~ .image-container {
+  left: -700px; /* to move the image 800px to the left */
 }
-#slider-image-3:target ~ .image-container {
-  left: -1600px; 
+#cos-spotlight-slider-image-3:target ~ .image-container {
+  left: -1400px; 
 }
-#slider-image-4:target ~ .image-container {
-  left: -2400px; 
+#cos-spotlight-slider-image-4:target ~ .image-container {
+  left: -2100px; 
 }
-#slider-image-5:target ~ .image-container {
-  left: -3200px; 
+#cos-spotlight-slider-image-5:target ~ .image-container {
+  left: -2800px; 
 }
-#slider-image-6:target ~ .image-container {
-  left: -4000px; 
+#cos-spotlight-slider-image-6:target ~ .image-container {
+  left: -3500px; 
 }
-#slider-image-7:target ~ .image-container {
-  left: -4800px; 
+#cos-spotlight-slider-image-7:target ~ .image-container {
+  left: -4200px; 
 }
-#slider-image-8:target ~ .image-container {
+#cos-spotlight-slider-image-8:target ~ .image-container {
+  left: -4900px; 
+}
+#cos-spotlight-slider-image-9:target ~ .image-container {
   left: -5600px; 
 }
-#slider-image-9:target ~ .image-container {
-  left: -6400px; 
+
+/*SPACE DAY*/
+#space-day-slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
+  left: 0px; /* this is where we start, so no need to move the image yet */
+}
+#space-day-slider-image-2:target ~ .image-container {
+  left: -700px; /* to move the image 800px to the left */
+}
+#space-day-slider-image-3:target ~ .image-container {
+  left: -1400px; 
+}
+#space-day-slider-image-4:target ~ .image-container {
+  left: -2100px; 
+}
+#space-day-slider-image-5:target ~ .image-container {
+  left: -2800px; 
+}
+#space-day-slider-image-6:target ~ .image-container {
+  left: -3500px; 
+}
+#space-day-slider-image-7:target ~ .image-container {
+  left: -4200px; 
+}
+#space-day-slider-image-8:target ~ .image-container {
+  left: -4900px; 
+}
+#space-day-slider-image-9:target ~ .image-container {
+  left: -5600px; 
+}
+
+/*WELCOME BACK*/
+#welcome-slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
+  left: 0px; /* this is where we start, so no need to move the image yet */
+}
+#welcome-slider-image-2:target ~ .image-container {
+  left: -700px; /* to move the image 800px to the left */
+}
+#welcome-slider-image-3:target ~ .image-container {
+  left: -1400px; 
+}
+#welcome-slider-image-4:target ~ .image-container {
+  left: -2100px; 
+}
+#welcome-slider-image-5:target ~ .image-container {
+  left: -2800px; 
+}
+#welcome-slider-image-6:target ~ .image-container {
+  left: -3500px; 
+}
+#welcome-slider-image-7:target ~ .image-container {
+  left: -4200px; 
+}
+#welcome-slider-image-8:target ~ .image-container {
+  left: -4900px; 
 }
 
 .footer {
   height: 150px;
   margin-top: 150px;
   background-color: #181F3A;
+  position: absolute;
+  bottom: 0px;
 }

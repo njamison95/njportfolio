@@ -71,13 +71,10 @@ nav {
   color: #F2EEE4;
 }
 
-
-
 /* main */
 .cos-background-image {
   width: 100vw;
   height: 90vh;
-  margin-bottom: 100px;
   background-image: url("../../images/sunflower-2.jpg");
   background-size: cover;
   opacity: 30%;
@@ -85,7 +82,6 @@ nav {
 .classwork-background-image {
   width: 100vw;
   height: 90vh;
-  margin-bottom: 100px;
   background-image: url("../../images/yellow-forest.jpg");
   background-size: cover;
   opacity: 30%;
@@ -93,7 +89,6 @@ nav {
 .rectangle {
   width: 100vw;
   height: 90vh;
-  margin-bottom: 100px;
   background-color: #251e2e;
   position: absolute;
   opacity: 60%;
@@ -114,6 +109,13 @@ h2 {
   margin-top: 0px
  /* Slide CSS */
 }
+h3 {
+  font-size: 150px;
+  position: absolute;
+  top: 720px;
+  left: 75px;
+
+}
 p {
   font-size: 17px;
   font-family: "Figtree", sans-serif;
@@ -122,51 +124,88 @@ p {
   line-height: 1.75;
   color: #231C2B;
 }
-.image-group-container {
-  width: 70vw;
-  height: 700px;
+.background-A {
+  width: 100vw;
+  height: 900px;
+  padding-top: 175px;
+  background-color: #32283E;
+}
+.background-B {
+  width: 100vw;
+  height: 900px;
+  padding-top: 100px;
+  background-color: #463857;
+}
+#grad-background {
+  width: 100vw;
+  height: 2300px;
+  padding-top: 100px;
+  background-color: #463857;
+}
+#ms-background {
+  width: 100vw;
+  height: 1440px;
+  padding-top: 100px;
+  background-color: #463857;
+}
+.ig-image-container-R {
+  width: 600px;
+  height: 600px;
+  background-color: blue;
+  float: right;
+  margin-right: 75px;
+  margin-bottom: 100px;
+}
+.ig-image {
+  width: 600px;
+  height: 600px;
+}
+.tv-image-container-L {
+  width: 960px;
+  height: 540px;
+  background-color: blue;
+  float: left;
+  margin-left: 75px;
+  margin-bottom: 100px;
+}
+.tv-image {
+  width: 960px;
+  height: 540px;
+  background-color: blue;
   margin: 0px auto;
-  margin-bottom: 200px;
-/*  background-color: red;*/
 }
-/*.flyer {
-  width: 35.5vw;
-  margin-right: 3vw;
-}*/
-.ig-single {
-  width: 700px;
+.twitter-image-container-L {
+  width: 1024px;
+  height: 512px;
+  background-color: blue;
   float: left;
-}
-.description-R {
-  max-width: 400px;
-  float: left;
-  margin-left: 50px;
+  margin-left: 75px;
   margin-bottom: 100px;
-/*  background-color: green;*/
 }
-.description-L {
-  max-width: 400px;
-  float: left;
-  margin-right: 50px;
-  margin-bottom: 100px;
-/*  background-color: green;*/
+.twitter-image {
+  width: 1024px;
+  height: 512px;
 }
 /*GENERAL SLIDESHOW CODE*/
-.slide-text-container {
-  width: 70vw;
-  height: 700px;
-  margin: 0px auto;
-  margin-bottom: 200px;
-/*  background-color: blue;*/
+.slide-group-container-A {
+  width: 100vw;
+  height: 900px;
+  padding-top: 100px;
+  background-color: #32283E;
+}
+.slide-group-container-B {
+  width: 100vw;
+  height: 900px;
+  padding-top: 100px;
+  background-color: #463857;
 }
 .square-slider-container {
   width: 700px;
   height: 700px;
-/*  margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
-*/  overflow: hidden;
+  overflow: hidden;
   text-align: center; /* to align the slider buttons inside the container */
-  float: left;
 }
 .image-container {
   width: 7200px;
@@ -223,6 +262,38 @@ p {
 }
 #cos-spotlight-slider-image-9:target ~ .image-container {
   left: -5600px; 
+}
+
+/*GRAD 2024*/
+#grad-slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
+  left: 0px; /* this is where we start, so no need to move the image yet */
+}
+#grad-slider-image-2:target ~ .image-container {
+  left: -700px; /* to move the image 800px to the left */
+}
+#grad-slider-image-3:target ~ .image-container {
+  left: -1400px; 
+}
+#grad-slider-image-4:target ~ .image-container {
+  left: -2100px; 
+}
+#grad-slider-image-5:target ~ .image-container {
+  left: -2800px; 
+}
+#grad-slider-image-6:target ~ .image-container {
+  left: -3500px; 
+}
+#grad-slider-image-7:target ~ .image-container {
+  left: -4200px; 
+}
+#grad-slider-image-8:target ~ .image-container {
+  left: -4900px; 
+}
+#grad-slider-image-9:target ~ .image-container {
+  left: -5600px; 
+}
+#grad-slider-image-10:target ~ .image-container {
+  left: -6300px; 
 }
 
 /*SPACE DAY*/

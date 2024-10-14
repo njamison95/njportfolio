@@ -4,7 +4,7 @@
 }
 body {
   margin: 0;
-  background-color: #F2EEE4;
+  background-color: #463857;
   font-family: "Nanum Myeongjo", serif;
 }
 /*header styles*/
@@ -15,7 +15,7 @@ header {
   text-transform: uppercase;
   display: flow-root;
   margin: 0px auto;
-  background-color: #463857;
+  background-color: #32283E;
 }
 nav {
   float: right;
@@ -41,7 +41,7 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #32283E;
+  background-color: #463857;
   font-family: "Nanum Myeongjo", serif;
   font-weight: 800;
   min-width: 150px;
@@ -67,13 +67,13 @@ nav {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #32283E;
+  background-color: #463857;
   color: #F2EEE4;
 }
 .title {
-  margin-top: 23vh;
+  margin-top: auto;
   position: absolute;
-  bottom: 28vh;
+  bottom: 25vh;
   left: 30vw;
 }
 .background-image {

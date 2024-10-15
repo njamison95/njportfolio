@@ -378,15 +378,12 @@ p {
   width: 60vw;
   height: 40vw;
   background-color: red;
-  background-image: url(../../images/classwork/mockups/grammy-mockup.png);
+/*  background-image: url(../../images/classwork/mockups/grammy-mockup.png);*/
   object-fit: fill;
 }
-#grammy-image {
-  width: 1264px;
-  height: 915px;
-}
-
-
+#grammy-image, #moth-image, #ab-image, #hk-image {
+  width: 100vw;
+  float: left;
 
 
 .footer {

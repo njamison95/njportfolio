@@ -82,7 +82,26 @@ h2 {
     margin-top: 0px
  /* Slide CSS */
 }
+img {
+  width: 600px;
+  height: 600px;
+}
 .slide-container {
-  width: 1080px;
-  height: 1080px;
+  width: 108px;
+  height: 600px;
+}
+.spaceday-image-container {
+  width: 5400px;
+  height: 600px;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s; /*makes sure the transitions work in CHROME*/
+  -moz-transition: left 2s; /*makes sure the transitions work in FIREFOX*/
+  -o-transition: left 2s ; /*makes sure the transitions work in OPERA*/
+}
+.slider-image {
+  float: left;
+  margin: 0;
+  padding: 0;
+
 }

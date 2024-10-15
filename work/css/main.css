@@ -163,6 +163,14 @@ p {
   margin-right: 75px;
   margin-bottom: 100px;
 }
+.ig-image-container-R-1 {
+  width: 600px;
+  height: 600px;
+  background-color: blue;
+  float: right;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
 .ig-image {
   width: 600px;
   height: 600px;
@@ -362,6 +370,24 @@ p {
 ::-webkit-scrollbar {
   width: 0px;
 }
+
+
+
+
+#grammy {
+  width: 60vw;
+  height: 40vw;
+  background-color: red;
+  background-image: url(../../images/classwork/mockups/grammy-mockup.png);
+  object-fit: fill;
+}
+#grammy-image {
+  width: 1264px;
+  height: 915px;
+}
+
+
+
 
 .footer {
   height: 150px;

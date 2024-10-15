@@ -1,22 +1,21 @@
 * {
   box-sizing: border-box;
-  color: #E56A54;
+  color: #5a4870;
 }
 body {
   margin: 0;
-  background-color: #212A4F;
-  font-family: "Orbit", sans-serif;
+  background-color: #463857;
+  font-family: "Nanum Myeongjo", serif;
 }
 /*header styles*/
 header {
+  width: 100vw;
   font-weight: 800;
   font-size: 15px;
-  letter-spacing: 1px;
   text-transform: uppercase;
   display: flow-root;
-  width: 90vw;
   margin: 0px auto;
-/*  background-color: red;*/
+  background-color: #32283E;
 }
 nav {
   float: right;
@@ -26,30 +25,32 @@ nav {
 .dropdown {
   position: relative;
   display: inline-block;
-  border-radius: 5%;
 }
 .dropbtn {
   background-color: transparent;
   font-size: 16px;
   border: none;
-  padding: 20px 40px;
+  padding: 20px 45.8px;
   margin-left: 20px;
-  font-family: "Orbit", sans-serif;
-  font-weight: 400;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
   font-style: normal;
+  color: #F2EEE4;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #9490B5;
-  min-width: 160px;
+  background-color: #463857;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
+  min-width: 150px;
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #212A4F;
+  color: #F2EEE4;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -57,7 +58,7 @@ nav {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #E56A54;
+  background-color: #EECD2A;
   color: #212A4F;
 }
 
@@ -66,19 +67,38 @@ nav {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #9490B5;
-  color: #212A4F;
+  background-color: #463857;
+  color: #F2EEE4;
 }
 .title {
-  margin-top: 22vh;
+  margin-top: auto;
+  position: absolute;
+  bottom: 25vh;
+  left: 30vw;
+}
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/sunflower-1.jpg");
+  background-size: cover;
+  opacity: 30%;
+}
+.rectangle {
+  width: 100vw;
+  height: 100vh;
+  background-color: #251e2e;
+  position: absolute;
+  opacity: 60%;
+  top: 58px;
 }
 h3 {
   margin: 0px auto;
+  margin-bottom: 30px;
   padding: 0;
-  font-size: 50px;
+  font-size: 3vw;
 /*  background-color: red;*/
   text-align: center;
-  color: #9490B5;
+  color: #F2EEE4;
 }
 h2 {
   margin: 0px auto;
@@ -90,14 +110,47 @@ h2 {
 h1 {
   margin: 0px auto;
   padding: 0;
-  font-size: 200px;
+  font-size: 11vw;
 /*  background-color: purple;*/
   text-align: center;
+  color: #F2EEE4;
 }
-
 p {
   width: 40vw;
   margin: 0px auto;
   margin-top: 50px;
   font-size: 40px;
+}
+
+.about-background-image {
+  width: 100vw;
+  height: 90vh;
+  margin-bottom: 100px;
+  background-image: url("../images/wildflowers.jpg");
+  background-size: cover;
+  opacity: 30%;
+}
+.about-rectangle {
+  width: 100vw;
+  height: 90vh;
+  margin-bottom: 100px;
+  background-color: #251e2e;
+  position: absolute;
+  opacity: 60%;
+  top: 58px;
+}
+.about {
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 6vw;
+  color: #F2EEE4;
+  position: absolute;
+  bottom: 30vh;
+  left: 17vw;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
 }

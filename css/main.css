@@ -89,7 +89,7 @@ nav {
   background-color: #251e2e;
   position: absolute;
   opacity: 60%;
-  top: 58px;
+  top: 59px;
 }
 h3 {
   margin: 0px auto;
@@ -122,9 +122,10 @@ p {
   font-size: 40px;
 }
 
+/*COVER PAGE*/
 .about-background-image {
   width: 100vw;
-  height: 90vh;
+  height: 900px;
   margin-bottom: 100px;
   background-image: url("../images/wildflowers.jpg");
   background-size: cover;
@@ -132,14 +133,14 @@ p {
 }
 .about-rectangle {
   width: 100vw;
-  height: 90vh;
+  height: 900px;
   margin-bottom: 100px;
   background-color: #251e2e;
   position: absolute;
   opacity: 60%;
   top: 58px;
 }
-.about {
+.about-title {
   margin: 0px auto;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -154,3 +155,4 @@ p {
 ::-webkit-scrollbar {
   width: 0px;
 }
+

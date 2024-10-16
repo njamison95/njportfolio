@@ -71,6 +71,7 @@ nav {
 }
 .title {
   margin-top: 22vh;
+<<<<<<< HEAD
   margin-top: auto;
   position: absolute;
   bottom: 25vh;
@@ -90,6 +91,8 @@ nav {
   position: absolute;
   opacity: 60%;
   top: 59px;
+=======
+>>>>>>> parent of 9ec1bd9 (Merge branch 'main' of https://github.com/njamison95/njportfolio)
 }
 
 h3 {
@@ -120,6 +123,7 @@ p {
   margin: 0px auto;
   margin-top: 50px;
   font-size: 40px;
+<<<<<<< HEAD
 }
 
 /*COVER PAGE*/
@@ -154,3 +158,6 @@ p {
 /* width */
 ::-webkit-scrollbar {
   width: 0px;
+=======
+}
+>>>>>>> parent of 9ec1bd9 (Merge branch 'main' of https://github.com/njamison95/njportfolio)

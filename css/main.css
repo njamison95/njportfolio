@@ -71,6 +71,7 @@ nav {
 }
 .title {
   margin-top: 22vh;
+<<<<<<< HEAD
   margin-top: auto;
   position: absolute;
   bottom: 25vh;
@@ -90,6 +91,9 @@ nav {
   position: absolute;
   opacity: 60%;
   top: 59px;
+=======
+}
+>>>>>>> parent of e9e8129 (merge?)
 h3 {
   margin: 0px auto;
   padding: 0;
@@ -118,6 +122,7 @@ p {
   margin: 0px auto;
   margin-top: 50px;
   font-size: 40px;
+<<<<<<< HEAD
 }
 
 /*COVER PAGE*/
@@ -152,4 +157,6 @@ p {
 /* width */
 ::-webkit-scrollbar {
   width: 0px;
+=======
+>>>>>>> parent of e9e8129 (merge?)
 }

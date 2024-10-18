@@ -137,6 +137,9 @@ nav {
 .square.fullImg img {
   object-fit: cover;
 }
+.tv-image {
+  width: 86vw;
+}
 h1 {
   margin: 0px auto;
   margin-top: 50px;

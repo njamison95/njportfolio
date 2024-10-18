@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: #5a4870;
 }
 body {
   margin: 0;
@@ -69,37 +70,87 @@ nav {
   background-color: #463857;
   color: #F2EEE4;
 }
-/* main */
-/*COVER PAGES*/
+.title {
+  margin-top: auto;
+  position: absolute;
+  bottom: 25vh;
+  left: 30vw;
+}
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/sunflower-1.jpg");
+  background-size: cover;
+  opacity: 30%;
+}
 .rectangle {
   width: 100vw;
   height: 100vh;
-  margin: 0px;
   background-color: #251e2e;
   position: absolute;
   opacity: 60%;
   top: 58px;
 }
-.background-image {
-  background-image: url(../images/sunflower-1.jpg);
-  object-fit: cover;
-}
-.title {
-  width: 30vw;
+h3 {
   margin: 0px auto;
-  background-color: red;
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 3vw;
+/*  background-color: red;*/
+  text-align: center;
+  color: #F2EEE4;
+}
+h2 {
+  margin: 0px auto;
+  padding: 0;
+  font-size: 85px;
+/*  background-color: purple;*/
+  text-align: center;
 }
 h1 {
-  width: 90vw;
   margin: 0px auto;
-  margin-top: 100px;
-  font-size: 100px;
-  color: #364581;
-/*  background-color: red;*/
+  padding: 0;
+  font-size: 11vw;
+/*  background-color: purple;*/
+  text-align: center;
+  color: #F2EEE4;
 }
-h3 {
-    margin: 0px auto;
-    font-size: 30px;
-    margin-top: 0px
- /* Slide CSS */
+p {
+  width: 40vw;
+  margin: 0px auto;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.about-background-image {
+  width: 100vw;
+  height: 90vh;
+  margin-bottom: 100px;
+  background-image: url("../images/wildflowers.jpg");
+  background-size: cover;
+  opacity: 30%;
+}
+.about-rectangle {
+  width: 100vw;
+  height: 90vh;
+  margin-bottom: 100px;
+  background-color: #251e2e;
+  position: absolute;
+  opacity: 60%;
+  top: 58px;
+}
+.about {
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 6vw;
+  color: #F2EEE4;
+  position: absolute;
+  bottom: 30vh;
+  left: 17vw;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
 }

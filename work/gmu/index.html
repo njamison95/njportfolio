@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbit&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nanum+Myeongjo:wght@400;700;800&family=Orbit&display=swap" rel="stylesheet">
   <title>GMU Work</title>
   <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
@@ -22,6 +22,7 @@
           <a href="../classwork/index.html">Classwork</a>
           <a href="../commissions/index.html">Commissions</a>
         </div>
+        </div>
       </div>
       <div class="dropdown">
         <a href="../../about/index.html"><button class="dropbtn">ABOUT</button></a>
@@ -30,53 +31,195 @@
   </header>
   <main>
     <div class="background-container">
-      <div class="gmu-background-image"></div>
+      <div class="cos-background-image"></div>
       <div class="rectangle"></div>
-      <h1 class="gmu-title">GMU College of Science</h1>
+      <h1>GMU College of Science</h1>
     </div>
-    <div class="slide-container">
-      <div class="spaceday-image-container">
-        <img src="../../images/gmu/space-day/insta-slides/space-day-1.png" class="slider-image">
-        <img src="../../images/gmu/space-day/insta-slides/space-day-2.png" class="slider-image">
-        <img src="../../images/gmu/space-day/insta-slides/space-day-3.png" class="slider-image">
-        <img src="../../images/gmu/space-day/insta-slides/space-day-4.png" class="slider-image">
-        <img src="../../images/gmu/space-day/insta-slides/space-day-5.png" class="slider-image">
-        <img src="../../images/gmu/space-day/insta-slides/space-day-6.png" class="slider-image">
-        <img src="../../images/gmu/space-day/insta-slides/space-day-7.png" class="slider-image">
-        <img src="../../images/gmu/space-day/insta-slides/space-day-8.png" class="slider-image">
-        <img src="../../images/gmu/space-day/insta-slides/space-day-9.png" class="slider-image">
+    <!-- COS SPOTLIGHT -->
+    <div class="slide-group-container-A">
+      <h3 id="spot">SPOT</h3>
+      <h3 id="light">LIGHT</h3>
+      <div class="square-slider-container">
+        <!-- for every image, create a span tag -->
+        <span id="cos-spotlight-slider-image-1"></span>
+        <span id="cos-spotlight-slider-image-2"></span>
+        <span id="cos-spotlight-slider-image-3"></span>
+        <span id="cos-spotlight-slider-image-4"></span>
+        <span id="cos-spotlight-slider-image-5"></span>
+        <span id="cos-spotlight-slider-image-6"></span>
+        <span id="cos-spotlight-slider-image-7"></span>
+        <span id="cos-spotlight-slider-image-8"></span>
+        <span id="cos-spotlight-slider-image-9"></span>
+        <!-- list image srcs in the image-container div -->
+        <div class="image-container">
+          <img src="../../images/gmu/dept-spotlight/cos-spot/dept1.png" class="square-slider-image">
+          <img src="../../images/gmu/dept-spotlight/cos-spot/dept2.png" class="square-slider-image">
+          <img src="../../images/gmu/dept-spotlight/cos-spot/dept3.png" class="square-slider-image">
+          <img src="../../images/gmu/dept-spotlight/cos-spot/dept4.png" class="square-slider-image">
+          <img src="../../images/gmu/dept-spotlight/cos-spot/dept5.png" class="square-slider-image">
+          <img src="../../images/gmu/dept-spotlight/cos-spot/dept6.png" class="square-slider-image">
+          <img src="../../images/gmu/dept-spotlight/cos-spot/dept7.png" class="square-slider-image">
+          <img src="../../images/gmu/dept-spotlight/cos-spot/dept8.png" class="square-slider-image">
+          <img src="../../images/gmu/dept-spotlight/cos-spot/dept9.png" class="square-slider-image">
+        </div>
+        <!-- create links to target each slide in button-container div. Addd "#" before the name, since each name is an id -->
+        <div class="button-container">
+          <a href="#cos-spotlight-slider-image-1" class="slider-button"></a>
+          <a href="#cos-spotlight-slider-image-2" class="slider-button"></a>
+          <a href="#cos-spotlight-slider-image-3" class="slider-button"></a>
+          <a href="#cos-spotlight-slider-image-4" class="slider-button"></a>
+          <a href="#cos-spotlight-slider-image-5" class="slider-button"></a>
+          <a href="#cos-spotlight-slider-image-6" class="slider-button"></a>
+          <a href="#cos-spotlight-slider-image-7" class="slider-button"></a>
+          <a href="#cos-spotlight-slider-image-8" class="slider-button"></a>
+          <a href="#cos-spotlight-slider-image-9" class="slider-button"></a>
+        </div>
       </div>
     </div>
-    <!-- <h1>GMU COLLEGE OF SCIENCE</h1>
-    <div class="bg1"></div>
-    <div class="slider-wrapper">
-      <div class="slider">
-        <img id="slide-1" src="../images/cos/space-day/insta-slides/space-day-1.png">
-        <img id="slide-2" src="../images/cos/space-day/insta-slides/space-day-2.png">
-        <img id="slide-3" src="../images/cos/space-day/insta-slides/space-day-3.png">
-        <img id="slide-4" src="../images/cos/space-day/insta-slides/space-day-4.png">
-        <img id="slide-5" src="../images/cos/space-day/insta-slides/space-day-5.png">
-        <img id="slide-6" src="../images/cos/space-day/insta-slides/space-day-6.png">
-        <img id="slide-7" src="../images/cos/space-day/insta-slides/space-day-7.png">
-        <img id="slide-8" src="../images/cos/space-day/insta-slides/space-day-8.png">
-        <img id="slide-9" src="../images/cos/space-day/insta-slides/space-day-9.png">
+    <!-- GRAUATION -->
+    <div class="background-B" id="grad-background">
+      <div class="tv-image-container-L">
+        <img src="../../images/gmu/grad-2024/todays-the-day-TV.png" class="tv-image">
       </div>
-      <div class="slider-nav">
-        <a href="slide-1"></a>
-        <a href="slide-2"></a>
-        <a href="slide-3"></a>
-        <a href="slide-4"></a>
-        <a href="slide-5"></a>
-        <a href="slide-6"></a>
-        <a href="slide-7"></a>
-        <a href="slide-8"></a>
-        <a href="slide-9"></a>
+      <div class="ig-image-container-R">
+        <img src="../../images/gmu/grad-2024/congrats.png" class="ig-image">
+      </div>
+      <div class="ig-image-container-R">
+        <img src="../../images/gmu/grad-2024/best-of-luck.png" class="ig-image">
+      </div>
+      <div class="square-slider-container">
+        <!-- for every image, create a span tag -->
+        <span id="grad-slider-image-1"></span>
+        <span id="grad-slider-image-2"></span>
+        <span id="grad-slider-image-3"></span>
+        <span id="grad-slider-image-4"></span>
+        <span id="grad-slider-image-5"></span>
+        <span id="grad-slider-image-6"></span>
+        <span id="grad-slider-image-7"></span>
+        <span id="grad-slider-image-8"></span>
+        <span id="grad-slider-image-9"></span>
+        <span id="grad-slider-image-10"></span>
+        <!-- list image srcs in the image-container div -->
+        <div class="image-container">
+          <img src="../../images/gmu/grad-2024/gc-10.png" class="square-slider-image">
+          <img src="../../images/gmu/grad-2024/gc-9.png" class="square-slider-image">
+          <img src="../../images/gmu/grad-2024/gc-8.png" class="square-slider-image">
+          <img src="../../images/gmu/grad-2024/gc-7.png" class="square-slider-image">
+          <img src="../../images/gmu/grad-2024/gc-6.png" class="square-slider-image">
+          <img src="../../images/gmu/grad-2024/gc-5.png" class="square-slider-image">
+          <img src="../../images/gmu/grad-2024/gc-4.png" class="square-slider-image">
+          <img src="../../images/gmu/grad-2024/gc-3.png" class="square-slider-image">
+          <img src="../../images/gmu/grad-2024/gc-2.png" class="square-slider-image">
+          <img src="../../images/gmu/grad-2024/gc-1.png" class="square-slider-image">
+        </div>
+        <!-- create links to target each slide in button-container div. Addd "#" before the name, since each name is an id -->
+        <div class="button-container">
+          <a href="#grad-slider-image-1" class="slider-button"></a>
+          <a href="#grad-slider-image-2" class="slider-button"></a>
+          <a href="#grad-slider-image-3" class="slider-button"></a>
+          <a href="#grad-slider-image-4" class="slider-button"></a>
+          <a href="#grad-slider-image-5" class="slider-button"></a>
+          <a href="#grad-slider-image-6" class="slider-button"></a>
+          <a href="#grad-slider-image-7" class="slider-button"></a>
+          <a href="#grad-slider-image-8" class="slider-button"></a>
+          <a href="#grad-slider-image-9" class="slider-button"></a>
+          <a href="#grad-slider-image-10" class="slider-button"></a>
+        </div>
       </div>
     </div>
-    <div class="text-container">
-      <h2>Space Day 2024</h2>
-      <p>George Mason Space Day is an exciting, collaborative, and engaging event, with an aim to educate the public on the technology and science behind some of the leading aerospace projects in the area. </p>
-    </div> -->
+    <!-- SPACE DAY -->
+    <div class="slide-group-container-A">
+      <div class="square-slider-container">
+        <!-- for every image, create a span tag -->
+        <span id="space-day-slider-image-1"></span>
+        <span id="space-day-slider-image-2"></span>
+        <span id="space-day-slider-image-3"></span>
+        <span id="space-day-slider-image-4"></span>
+        <span id="space-day-slider-image-5"></span>
+        <span id="space-day-slider-image-6"></span>
+        <span id="space-day-slider-image-7"></span>
+        <span id="space-day-slider-image-8"></span>
+        <span id="space-day-slider-image-9"></span>
+        <!-- list image srcs in the image-container div -->
+        <div class="image-container">
+          <img src="../../images/gmu/space-day/insta-slides/space-day-1.png" class="square-slider-image">
+          <img src="../../images/gmu/space-day/insta-slides/space-day-2.png" class="square-slider-image">
+          <img src="../../images/gmu/space-day/insta-slides/space-day-3.png" class="square-slider-image">
+          <img src="../../images/gmu/space-day/insta-slides/space-day-4.png" class="square-slider-image">
+          <img src="../../images/gmu/space-day/insta-slides/space-day-5.png" class="square-slider-image">
+          <img src="../../images/gmu/space-day/insta-slides/space-day-6.png" class="square-slider-image">
+          <img src="../../images/gmu/space-day/insta-slides/space-day-7.png" class="square-slider-image">
+          <img src="../../images/gmu/space-day/insta-slides/space-day-8.png" class="square-slider-image">
+          <img src="../../images/gmu/space-day/insta-slides/space-day-9.png" class="square-slider-image">
+        </div>
+        <!-- create links to target each slide in button-container div. Addd "#" before the name, since each name is an id -->
+        <div class="button-container">
+          <a href="#space-day-slider-image-1" class="slider-button"></a>
+          <a href="#space-day-slider-image-2" class="slider-button"></a>
+          <a href="#space-day-slider-image-3" class="slider-button"></a>
+          <a href="#space-day-slider-image-4" class="slider-button"></a>
+          <a href="#space-day-slider-image-5" class="slider-button"></a>
+          <a href="#space-day-slider-image-6" class="slider-button"></a>
+          <a href="#space-day-slider-image-7" class="slider-button"></a>
+          <a href="#space-day-slider-image-8" class="slider-button"></a>
+          <a href="#space-day-slider-image-9" class="slider-button"></a>
+        </div>
+      </div>
+    </div>
+    <!-- MASON SCIENCE -->
+    <div class="background-B" id="ms-background">
+      <div class="twitter-image-container-L">
+        <img src="../../images/gmu/mason-science/ms-new-twlink.png" class="twitter-image">
+      </div>
+      <div class="ig-image-container-R-1">
+        <img src="../../images/gmu/mason-science/ms-new-igfb.png" class="ig-image">
+      </div>
+    </div>
+    <!-- WELCOME BACK -->
+    <div class="slide-group-container-A">
+      <div class="square-slider-container">
+        <!-- for every image, create a span tag -->
+        <span id="welcome-slider-image-1"></span>
+        <span id="welcome-slider-image-2"></span>
+        <span id="welcome-slider-image-3"></span>
+        <span id="welcome-slider-image-4"></span>
+        <span id="welcome-slider-image-5"></span>
+        <span id="welcome-slider-image-6"></span>
+        <span id="welcome-slider-image-7"></span>
+        <span id="welcome-slider-image-8"></span>
+        <!-- list image srcs in the image-container div -->
+        <div class="image-container">
+          <img src="../../images/gmu/welcome/welcome-1.png" class="square-slider-image">
+          <img src="../../images/gmu/welcome/welcome-2.png" class="square-slider-image">
+          <img src="../../images/gmu/welcome/welcome-3.png" class="square-slider-image">
+          <img src="../../images/gmu/welcome/welcome-4.png" class="square-slider-image">
+          <img src="../../images/gmu/welcome/welcome-5.png" class="square-slider-image">
+          <img src="../../images/gmu/welcome/welcome-6.png" class="square-slider-image">
+          <img src="../../images/gmu/welcome/welcome-7.png" class="square-slider-image">
+          <img src="../../images/gmu/welcome/welcome-8.png" class="square-slider-image">
+        </div>
+        <!-- create links to target each slide in button-container div. Addd "#" before the name, since each name is an id -->
+        <div class="button-container">
+          <a href="#welcome-slider-image-1" class="slider-button"></a>
+          <a href="#welcome-slider-image-2" class="slider-button"></a>
+          <a href="#welcome-slider-image-3" class="slider-button"></a>
+          <a href="#welcome-slider-image-4" class="slider-button"></a>
+          <a href="#welcome-slider-image-5" class="slider-button"></a>
+          <a href="#welcome-slider-image-6" class="slider-button"></a>
+          <a href="#welcome-slider-image-7" class="slider-button"></a>
+          <a href="#welcome-slider-image-8" class="slider-button"></a>
+        </div>
+      </div>
+    </div>
+    <!-- MASON SCIENCE -->
+    <div class="background-B">
+      <div class="landscape-image">
+        <img src="../../images/gmu/mason-science/ms-new-twlink.png">
+      </div>
+    </div>
   </main>
+  <footer>
+    <div class="footer"></div>
+  </footer>
 </body>
 </html>

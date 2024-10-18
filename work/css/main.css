@@ -104,9 +104,9 @@ nav {
 }
 .space-day-background {
   width: 100vw;
-  height: 900px;
+  height: 2150px;
   padding-top: 100px;
-  background-color: #463857;
+  background-color: red;
 }
 
 /*SOCIAl MEDIA GRID*/
@@ -137,8 +137,13 @@ nav {
 .square.fullImg img {
   object-fit: cover;
 }
+.tv-image-container {
+  width: 86vw;
+  margin: 0px auto;
+}
 .tv-image {
   width: 86vw;
+  margin-top: 100px;
 }
 h1 {
   margin: 0px auto;

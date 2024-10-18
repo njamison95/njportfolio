@@ -95,20 +95,33 @@ nav {
   top: 58px;
 }
 
+/*ALTERNATING BACKGROUNDS*/
+.social-media-background {
+  width: 100vw;
+  height: 1480px;
+  padding-top: 120px;
+  background-color: #32283E;
+}
+.space-day-background {
+  width: 100vw;
+  height: 900px;
+  padding-top: 100px;
+  background-color: #463857;
+}
 
-
-
-
+/*SOCIAl MEDIA GRID*/
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2%;
+  gap: 4%;
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 .square {
   aspect-ratio: 1/ 1;
   display: flex;
   align-items: center;
-  padding: 5%;
+/*  padding: 5%;*/
   background-color: #1E1E1E;
   color: #fff;
 }
@@ -124,14 +137,6 @@ nav {
 .square.fullImg img {
   object-fit: cover;
 }
-
-
-
-
-
-
-
-
 h1 {
   margin: 0px auto;
   margin-top: 50px;
@@ -149,10 +154,9 @@ h2 {
 }
 h3 {
   font-size: 7vw;
-  width: 85vw;
+  width: 86vw;
   margin: 0px auto;
-  margin-bottom: 100px;
-  background-color: red;
+  margin-bottom: 120px;
 }
 p {
   font-size: 17px;
@@ -186,65 +190,12 @@ p {
   padding-top: 100px;
   background-color: #463857;
 }
-.ig-image-container-R {
-  width: 600px;
-  height: 600px;
-  background-color: blue;
-  float: right;
-  margin-right: 75px;
-  margin-bottom: 100px;
-}
-.ig-image-container-R-1 {
-  width: 600px;
-  height: 600px;
-  background-color: blue;
-  float: right;
-  margin-right: 300px;
-  margin-bottom: 100px;
-}
-.ig-image {
-  width: 600px;
-  height: 600px;
-}
-.tv-image-container-L {
-  width: 960px;
-  height: 540px;
-  background-color: blue;
-  float: left;
-  margin-left: 75px;
-  margin-bottom: 100px;
-}
-.tv-image {
-  width: 960px;
-  height: 540px;
-  background-color: blue;
-  margin: 0px auto;
-}
-.twitter-image-container-L {
-  width: 1024px;
-  height: 512px;
-  background-color: blue;
-  float: left;
-  margin-left: 75px;
-  margin-bottom: 100px;
-}
-.twitter-image {
-  width: 1024px;
-  height: 512px;
-}
+
+
+
+
+
 /*GENERAL SLIDESHOW CODE*/
-.slide-group-container-A {
-  width: 100vw;
-  height: 900px;
-  padding-top: 100px;
-  background-color: #32283E;
-}
-.slide-group-container-B {
-  width: 100vw;
-  height: 900px;
-  padding-top: 100px;
-  background-color: #463857;
-}
 .square-slider-container {
   width: 700px;
   height: 700px;

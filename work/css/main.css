@@ -12,7 +12,7 @@ header {
   width: 100vw;
   font-weight: 800;
   font-size: 15px;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   display: flow-root;
   margin: 0px auto;
   background-color: #32283E;
@@ -86,12 +86,26 @@ nav {
   background-size: cover;
   opacity: 30%;
 }
+.commissions-background-image {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("../../images/yellow-forest.jpg");
+  background-size: cover;
+  opacity: 30%;
+}
+.personal-background-image {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("../../images/yellow-forest.jpg");
+  background-size: cover;
+  opacity: 30%;
+}
 .rectangle {
   width: 100vw;
   height: 90vh;
   background-color: #251e2e;
   position: absolute;
-  opacity: 60%;
+  opacity: 20%;
   top: 59px;
 }
 

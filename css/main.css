@@ -12,7 +12,7 @@ header {
   width: 100vw;
   font-weight: 800;
   font-size: 15px;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   display: flow-root;
   margin: 0px auto;
   background-color: #32283E;
@@ -88,7 +88,7 @@ nav {
   height: 100vh;
   background-color: #251e2e;
   position: absolute;
-  opacity: 60%;
+  opacity: 20%;
   top: 59px;
 }
 h3 {
@@ -136,7 +136,7 @@ p {
   margin-bottom: 100px;
   background-color: #251e2e;
   position: absolute;
-  opacity: 60%;
+  opacity: 20%;
   top: 59px;
 }
 .about {

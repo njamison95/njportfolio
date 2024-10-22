@@ -116,12 +116,15 @@ h1 {
   color: #F2EEE4;
 }
 p {
-  width: 40vw;
-  margin: 0px auto;
-  margin-top: 50px;
-  font-size: 40px;
+  font-size: 20px;
+  color: #F2EEE4;
+  font-family: "Figtree", sans-serif;
+  line-height: 2;
 }
-
+#greeting {
+    font-size: 80px;
+    color: #F2EEE4;
+}
 .about-background-image {
   width: 100vw;
   height: 90vh;
@@ -149,7 +152,17 @@ p {
   bottom: 30vh;
   left: 17vw;
 }
-
+.content-container {
+  width: 85vw;
+  margin: auto;
+}
+.text-container, .image-container {
+  width: 50%;
+  float: left;
+}
+#portrait {
+  width: 100%;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 0px;

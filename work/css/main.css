@@ -217,7 +217,7 @@ p {
 
 
 
-/*GENERAL SLIDESHOW CODE*/
+/*Square SLIDESHOW CODE*/
 .square-slider-container {
   width: 700px;
   height: 700px;
@@ -242,6 +242,34 @@ p {
   width: 700px;
   height: 700px;
 }
+
+/*TV SLIDESHOW CODE*/
+.tv-slider-container {
+  width: 700px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center; /* to align the slider buttons inside the container */
+}
+.tv-image-container {
+  width: 7200px;
+  height: 700px;
+  position: relative;
+  transition: left 1s;
+  -webkit-transition: left 1s;
+  -moz-transition: left 1s;
+  -o-transition: left 1s;
+}
+.tv-slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 700px;
+}
+
+/*Button code*/
 .button-container {
   top: -30px; /* so that the bttons show up on top of the slides, since we put the button-container right underneath the image-container in the html */
   position: relative;

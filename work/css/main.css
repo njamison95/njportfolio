@@ -4,7 +4,7 @@
 }
 body {
   margin: 0;
-  background-color: #32283E;
+  background-color: #463857;
   font-family: "Nanum Myeongjo", serif;
 }
 /*header styles*/
@@ -12,7 +12,7 @@ header {
   width: 100vw;
   font-weight: 800;
   font-size: 15px;
-/*  text-transform: uppercase;*/
+  text-transform: uppercase;
   display: flow-root;
   margin: 0px auto;
   background-color: #32283E;
@@ -86,40 +86,27 @@ nav {
   background-size: cover;
   opacity: 30%;
 }
-.commissions-background-image {
-  width: 100vw;
-  height: 90vh;
-  background-image: url("../../images/wheat.jpg");
-  background-size: cover;
-  opacity: 30%;
-}
-.personal-background-image {
-  width: 100vw;
-  height: 90vh;
-  background-image: url("../../images/yellow-tree.jpg");
-  background-size: cover;
-  opacity: 30%;
-}
 .rectangle {
   width: 100vw;
   height: 90vh;
   background-color: #251e2e;
   position: absolute;
-  opacity: 20%;
-  top: 59px;
+  opacity: 60%;
+  top: 58px;
 }
 
 /*ALTERNATING BACKGROUNDS*/
 .social-media-background {
   width: 100vw;
   height: 1480px;
+  padding-top: 120px;
   background-color: #32283E;
 }
 .space-day-background {
   width: 100vw;
   height: 2150px;
   padding-top: 100px;
-  background-color: #3c304b;
+  background-color: red;
 }
 
 /*SOCIAl MEDIA GRID*/
@@ -178,7 +165,6 @@ h3 {
   width: 86vw;
   margin: 0px auto;
   margin-bottom: 120px;
-  margin-top: 120px;
 }
 p {
   font-size: 17px;
@@ -188,8 +174,36 @@ p {
   line-height: 1.75;
   color: #231C2B;
 }
+.background-A {
+  width: 100vw;
+  height: 900px;
+  padding-top: 175px;
+  background-color: #32283E;
+}
+.background-B {
+  width: 100vw;
+  height: 900px;
+  padding-top: 100px;
+  background-color: #463857;
+}
+#grad-background {
+  width: 100vw;
+  height: 2300px;
+  padding-top: 100px;
+  background-color: #463857;
+}
+#ms-background {
+  width: 100vw;
+  height: 1440px;
+  padding-top: 100px;
+  background-color: #463857;
+}
 
-/*Square SLIDESHOW CODE*/
+
+
+
+
+/*GENERAL SLIDESHOW CODE*/
 .square-slider-container {
   width: 700px;
   height: 700px;
@@ -214,45 +228,16 @@ p {
   width: 700px;
   height: 700px;
 }
-
-/*TV SLIDESHOW CODE*/
-.tv-slider-container {
-  width: 1280px;
-  height: 720px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 200px;
-  overflow: hidden;
-  text-align: center; /* to align the slider buttons inside the container */
-}
-.tv-image-container {
-  width: 23040px;
-  height: 720px;
-  position: relative;
-  transition: left 1s;
-  -webkit-transition: left 1s;
-  -moz-transition: left 1s;
-  -o-transition: left 1s;
-}
-.tv-slider-image {
-  float: left;
-  margin: 0px;
-  padding: 0px;
-  width: 1280px;
-  height: 720px;
-}
-
-/*Button code*/
-.button-container, .tv-button-container {
+.button-container {
   top: -30px; /* so that the bttons show up on top of the slides, since we put the button-container right underneath the image-container in the html */
   position: relative;
 }
-.slider-button, .tv-slider-button {
+.slider-button {
   display: inline-block;
   width: 10px;
   height: 10px;
   border-radius: 5px;
-  background-color: red;
+  background-color: #F2EEE4;
 }
 
 /*COS SPOTIGHT*/
@@ -371,61 +356,6 @@ p {
   left: -4900px; 
 }
 
-/*REDIRECT*/
-#redirect-slider-image-1:target ~ .tv-image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
-  left: 0px; /* this is where we start, so no need to move the image yet */
-}
-#redirect-slider-image-2:target ~ .tv-image-container {
-  left: -1280px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-3:target ~ .tv-image-container {
-  left: -2560px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-4:target ~ .tv-image-container {
-  left: -3840px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-5:target ~ .tv-image-container {
-  left: -5120px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-6:target ~ .tv-image-container {
-  left: -6400px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-7:target ~ .tv-image-container {
-  left: -7680px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-8:target ~ .tv-image-container {
-  left: -8960px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-9:target ~ .tv-image-container {
-  left: -10240px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-10:target ~ .tv-image-container {
-  left: -11520px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-11:target ~ .tv-image-container {
-  left: -12800px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-12:target ~ .tv-image-container {
-  left: -14080px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-13:target ~ .tv-image-container {
-  left: -15360px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-14:target ~ .tv-image-container {
-  left: -16640px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-15:target ~ .tv-image-container {
-  left: -17920px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-16:target ~ .tv-image-container {
-  left: -19200px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-17:target ~ .tv-image-container {
-  left: -20480px; /* to move the image 800px to the left */
-}
-#redirect-slider-image-18:target ~ .tv-image-container {
-  left: -21760px; /* to move the image 800px to the left */
-}
 /* width */
 ::-webkit-scrollbar {
   width: 0px;
@@ -441,7 +371,7 @@ p {
 /*  background-image: url(../../images/classwork/mockups/grammy-mockup.png);*/
   object-fit: fill;
 }
-#grammy-image, #navy-cats-image, #moth-image, #ab-image, #hk-image, #el-commission-image, #psdh-image, #non-image {
+#grammy-image, #navy-cats-image, #moth-image, #ab-image, #hk-image, #el-commission-image {
   width: 100vw;
   float: left;
 

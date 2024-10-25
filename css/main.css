@@ -4,7 +4,7 @@
 }
 body {
   margin: 0;
-  background-color: #32283E;
+  background-color: #463857;
   font-family: "Nanum Myeongjo", serif;
 }
 /*header styles*/
@@ -12,7 +12,7 @@ header {
   width: 100vw;
   font-weight: 800;
   font-size: 15px;
-/*  text-transform: uppercase;*/
+  text-transform: uppercase;
   display: flow-root;
   margin: 0px auto;
   background-color: #32283E;
@@ -73,8 +73,8 @@ nav {
 .title {
   margin-top: auto;
   position: absolute;
-  bottom: 39vh;
-  left: 13vw;
+  bottom: 25vh;
+  left: 30vw;
 }
 .background-image {
   width: 100vw;
@@ -88,7 +88,7 @@ nav {
   height: 100vh;
   background-color: #251e2e;
   position: absolute;
-  opacity: 20%;
+  opacity: 60%;
   top: 58px;
 }
 h3 {
@@ -110,21 +110,18 @@ h2 {
 h1 {
   margin: 0px auto;
   padding: 0;
-  font-size: 8vw;
+  font-size: 11vw;
 /*  background-color: purple;*/
   text-align: center;
   color: #F2EEE4;
 }
 p {
-  font-size: 20px;
-  color: #F2EEE4;
-  font-family: "Figtree", sans-serif;
-  line-height: 2;
+  width: 40vw;
+  margin: 0px auto;
+  margin-top: 50px;
+  font-size: 40px;
 }
-#greeting {
-    font-size: 80px;
-    color: #F2EEE4;
-}
+
 .about-background-image {
   width: 100vw;
   height: 90vh;
@@ -139,7 +136,7 @@ p {
   margin-bottom: 100px;
   background-color: #251e2e;
   position: absolute;
-  opacity: 20%;
+  opacity: 60%;
   top: 58px;
 }
 .about {
@@ -152,20 +149,7 @@ p {
   bottom: 30vh;
   left: 17vw;
 }
-.content-container {
-  width: 85vw;
-  margin: auto;
-}
-.text-container, .image-container {
-  width: 45%;
-  float: left;
-}
-.text-container {
-  margin-right: 10%;
-}
-#portrait {
-  width: 100%;
-}
+
 /* width */
 ::-webkit-scrollbar {
   width: 0px;

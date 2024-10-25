@@ -73,8 +73,8 @@ nav {
 .title {
   margin-top: auto;
   position: absolute;
-  bottom: 25vh;
-  left: 30vw;
+  bottom: 39vh;
+  left: 13vw;
 }
 .background-image {
   width: 100vw;
@@ -89,7 +89,7 @@ nav {
   background-color: #251e2e;
   position: absolute;
   opacity: 20%;
-  top: 59px;
+  top: 58px;
 }
 h3 {
   margin: 0px auto;
@@ -110,7 +110,7 @@ h2 {
 h1 {
   margin: 0px auto;
   padding: 0;
-  font-size: 11vw;
+  font-size: 8vw;
 /*  background-color: purple;*/
   text-align: center;
   color: #F2EEE4;

@@ -157,8 +157,11 @@ p {
   margin: auto;
 }
 .text-container, .image-container {
-  width: 50%;
+  width: 45%;
   float: left;
+}
+.text-container {
+  margin-right: 10%;
 }
 #portrait {
   width: 100%;

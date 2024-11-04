@@ -4,7 +4,7 @@
 }
 body {
   margin: 0;
-  background-color: #463857;
+  background-color: #32283E;
   font-family: "Nanum Myeongjo", serif;
 }
 /*header styles*/
@@ -105,8 +105,29 @@ nav {
 .space-day-background {
   width: 100vw;
   height: 2150px;
-  padding-top: 100px;
-  background-color: red;
+  padding-top: 120px;
+  background-color: #463857;
+}
+.welcome-background {
+  width: 100vw;
+  height: 1990px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #32283E;
+}
+.grad-background {
+  width: 100vw;
+  height: 2500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #463857;
+}
+.sam-background {
+  width: 100vw;
+  height: 2500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #32283E;
 }
 
 /*SOCIAl MEDIA GRID*/
@@ -174,31 +195,6 @@ p {
   line-height: 1.75;
   color: #231C2B;
 }
-.background-A {
-  width: 100vw;
-  height: 900px;
-  padding-top: 175px;
-  background-color: #32283E;
-}
-.background-B {
-  width: 100vw;
-  height: 900px;
-  padding-top: 100px;
-  background-color: #463857;
-}
-#grad-background {
-  width: 100vw;
-  height: 2300px;
-  padding-top: 100px;
-  background-color: #463857;
-}
-#ms-background {
-  width: 100vw;
-  height: 1440px;
-  padding-top: 100px;
-  background-color: #463857;
-}
-
 
 
 
@@ -364,13 +360,6 @@ p {
 
 
 
-#grammy {
-  width: 60vw;
-  height: 40vw;
-  background-color: red;
-/*  background-image: url(../../images/classwork/mockups/grammy-mockup.png);*/
-  object-fit: fill;
-}
 #grammy-image, #navy-cats-image, #moth-image, #ab-image, #hk-image, #el-commission-image {
   width: 100vw;
   float: left;

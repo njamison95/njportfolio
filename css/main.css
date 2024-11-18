@@ -92,10 +92,9 @@ nav {
   top: 58px;
 }
 h3 {
-  margin: 0px auto;
   margin-bottom: 30px;
   padding: 0;
-  font-size: 3vw;
+  font-size: 30px;
 /*  background-color: red;*/
   text-align: center;
   color: #F2EEE4;
@@ -115,13 +114,35 @@ h1 {
   text-align: center;
   color: #F2EEE4;
 }
+h4 {
+  font-size: 60px;
+  margin-bottom: 30px;
+  padding: 0;
+/*  background-color: red;*/
+  color: #F2EEE4;
+}
 p {
-  width: 40vw;
   margin: 0px auto;
   margin-top: 50px;
-  font-size: 40px;
+  font-size: 20px;
+  line-height: 1.75;
+  color: #F2EEE4;
+  font-family: "Figtree", sans-serif;
 }
-
+.content-container {
+  width: 86vw;
+  margin: 0px auto;
+  background-color: red;
+}
+.text-container {
+  width: 50%;
+  padding: 0px;
+  padding-right: 7%;
+  background-color: blue;
+}
+.image-container {
+  width: 50%;
+}
 .about-background-image {
   width: 100vw;
   height: 90vh;

@@ -92,8 +92,63 @@ nav {
   background-color: #251e2e;
   position: absolute;
   opacity: 60%;
-  top: 58px;
+  top: 60px;
 }
+
+
+.tile-1 {
+  width: calc(100vw / 3);
+  height: 555px;
+  background-color: red;
+  float: left;
+}
+.tile-2 {
+  width: calc(100vw / 3);
+  height: 555px;
+  background-color: blue;
+  float: left;
+}
+.tile-3 {
+  width: calc(100vw / 3);
+  height: 555px;
+  background-color: green;
+  float: left;
+}
+
+h4 {
+  font-size: 40px;
+  margin: 0px;
+  margin-top: 8%;
+  margin-left: 8%;
+  color: white;
+}
+h5 {
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 8%;
+  margin-left: 8%;
+  color: white;
+}
+
+h6 {
+  font-size: 16px;
+  margin: 0px;
+  margin-top: 8%;
+  margin-left: 8%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*ALTERNATING BACKGROUNDS*/
 .social-media-background {

@@ -172,13 +172,13 @@ h1 {
   transform: translate(-20%, -20%);
 }
 /*tile text*/
-h4 {
+h2 {
   font-size: 30px;
   margin: 0px;
   margin-bottom: 20px;
   color: white;
 }
-h5 {
+h3 {
   font-size: 25x;
   line-height: 1.5;
   margin: 0px;

@@ -5,7 +5,9 @@
 body {
   margin: 0;
   background-color: #463857;
-  font-family: "Nanum Myeongjo", serif;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 /*header styles*/
 header {
@@ -74,7 +76,7 @@ nav {
   margin-top: auto;
   position: absolute;
   bottom: 25vh;
-  left: 30vw;
+  left: 20vw;
 }
 .background-image {
   width: 100vw;
@@ -89,7 +91,7 @@ nav {
   background-color: #251e2e;
   position: absolute;
   opacity: 60%;
-  top: 58px;
+  top: 60px;
 }
 h3 {
   margin-bottom: 30px;
@@ -132,13 +134,13 @@ p {
 .content-container {
   width: 86vw;
   margin: 0px auto;
-  background-color: red;
+/*  background-color: red;*/
 }
 .text-container {
   width: 50%;
   padding: 0px;
   padding-right: 7%;
-  background-color: blue;
+/*  background-color: blue;*/
 }
 .image-container {
   width: 50%;

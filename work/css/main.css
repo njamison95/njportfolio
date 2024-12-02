@@ -4,7 +4,7 @@
 }
 body {
   margin: 0;
-  background-color: #32283E;
+  background-color: #463857;
   font-family: "Anonymous Pro", monospace;
   font-weight: 400;
   font-style: normal;
@@ -17,7 +17,10 @@ header {
   text-transform: uppercase;
   display: flow-root;
   margin: 0px auto;
-  background-color: #32283E;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  z-index: 2;
 }
 nav {
   float: right;
@@ -30,24 +33,27 @@ nav {
 }
 .dropbtn {
   background-color: transparent;
-  font-size: 16px;
+  font-size: 18px;
   border: none;
-  padding: 20px 45.8px;
-  margin-left: 20px;
+  padding: 30px 60px;
+  margin-right: 70px;
   font-family: "Anonymous Pro", monospace;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
+  letter-spacing: 1px;
   color: #F2EEE4;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  font-size: 18px;
   display: none;
   position: absolute;
   background-color: #463857;
   font-family: "Anonymous Pro", monospace;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
-  min-width: 150px;
+  letter-spacing: 1px;
+  min-width: 173px;
   z-index: 1;
 }
 
@@ -73,6 +79,32 @@ nav {
   background-color: #463857;
   color: #F2EEE4;
 }
+.title {
+  margin-top: auto;
+  position: absolute;
+  bottom: 25vh;
+  left: 20vw;
+  z-index: 2;
+}
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/sunflower-1.jpg");
+  background-size: cover;
+  opacity: 30%;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+}
+.rectangle {
+  width: 100vw;
+  height: 90vh;
+  background-color: #251e2e;
+  position: absolute;
+  opacity: 60%;
+  top: 0px;
+  z-index: 1;
+}
 
 /* main */
 .cos-background-image {
@@ -89,27 +121,19 @@ nav {
   background-size: cover;
   opacity: 30%;
 }
-.rectangle {
-  width: 100vw;
-  height: 90vh;
-  background-color: #251e2e;
-  position: absolute;
-  opacity: 60%;
-  top: 59px;
-}
+
 /*/////////*/
 .container {
   position: relative;
   float: left;
+  top: 0px;
 }
-
 .image {
   display: block;
   width: calc(100vw / 4);
   height: calc(100vw / 4);
   overflow: hidden;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -127,7 +151,7 @@ nav {
   opacity: 80%;
 }
 .text {
-  width: 80%;
+  width: 70%;
 /*  background-color: red;*/
   color: #F2EEE4;
   font-size: 20px;
@@ -147,6 +171,7 @@ h4 {
 }
 h5 {
   font-size: 25x;
+  line-height: 1.5;
   margin: 0px;
   color: white;
 }
@@ -156,18 +181,6 @@ h6 {
   margin: 0px;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*ALTERNATING BACKGROUNDS*/
 .social-media-background {
@@ -247,8 +260,9 @@ h1 {
   font-size: 4vw;
   color: #F2EEE4;
   position: absolute;
-  bottom: 30vh;
-  left: 17vw;
+  bottom: 25vh;
+  left: 15vw;
+  z-index: 2;
 }
 h2 {
   font-size: 30px;
@@ -269,7 +283,6 @@ p {
   line-height: 1.75;
   color: #231C2B;
 }
-
 
 
 

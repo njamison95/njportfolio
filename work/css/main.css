@@ -97,20 +97,20 @@ nav {
 
 
 .tile-1 {
-  width: calc(100vw / 3);
-  height: 555px;
+  width: calc(100vw / 4);
+  height: calc(100vw / 4);
   background-color: red;
   float: left;
 }
 .tile-2 {
-  width: calc(100vw / 3);
-  height: 555px;
+  width: calc(100vw / 4);
+  height: calc(100vw / 4);
   background-color: blue;
   float: left;
 }
 .tile-3 {
-  width: calc(100vw / 3);
-  height: 555px;
+  width: calc(100vw / 4);
+  height: calc(100vw / 4);
   background-color: green;
   float: left;
 }

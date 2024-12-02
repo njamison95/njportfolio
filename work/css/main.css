@@ -105,7 +105,17 @@ nav {
   top: 0px;
   z-index: 1;
 }
-
+h1 {
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 4vw;
+  color: #F2EEE4;
+  position: absolute;
+  bottom: 25vh;
+  left: 15vw;
+  z-index: 2;
+}
 /* main */
 .cos-background-image {
   width: 100vw;
@@ -122,7 +132,7 @@ nav {
   opacity: 30%;
 }
 
-/*/////////*/
+/*tile*/
 .container {
   position: relative;
   float: left;
@@ -145,7 +155,6 @@ nav {
   opacity: 0;
   transition: .5s ease;
   background-color: black;
-
 }
 .container:hover .overlay {
   opacity: 80%;
@@ -162,7 +171,7 @@ nav {
   -ms-transform: translate(-20%, -20%);
   transform: translate(-20%, -20%);
 }
-
+/*tile text*/
 h4 {
   font-size: 30px;
   margin: 0px;
@@ -174,47 +183,6 @@ h5 {
   line-height: 1.5;
   margin: 0px;
   color: white;
-}
-
-h6 {
-  font-size: 16px;
-  margin: 0px;
-  color: white;
-}
-
-/*ALTERNATING BACKGROUNDS*/
-.social-media-background {
-  width: 100vw;
-  height: 1480px;
-  padding-top: 120px;
-  background-color: #32283E;
-}
-.space-day-background {
-  width: 100vw;
-  height: 2150px;
-  padding-top: 120px;
-  background-color: #463857;
-}
-.welcome-background {
-  width: 100vw;
-  height: 1990px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #32283E;
-}
-.grad-background {
-  width: 100vw;
-  height: 2500px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #463857;
-}
-.sam-background {
-  width: 100vw;
-  height: 2500px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #32283E;
 }
 
 /*SOCIAl MEDIA GRID*/
@@ -229,7 +197,6 @@ h6 {
   aspect-ratio: 1/ 1;
   display: flex;
   align-items: center;
-/*  padding: 5%;*/
   background-color: #1E1E1E;
   color: #fff;
 }
@@ -253,204 +220,11 @@ h6 {
   width: 86vw;
   margin-top: 100px;
 }
-h1 {
-  margin: 0px auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  font-size: 4vw;
-  color: #F2EEE4;
-  position: absolute;
-  bottom: 25vh;
-  left: 15vw;
-  z-index: 2;
-}
-h2 {
-  font-size: 30px;
-  margin-top: 0px
- /* Slide CSS */
-}
-h3 {
-  font-size: 7vw;
-  width: 86vw;
-  margin: 0px auto;
-  margin-bottom: 120px;
-}
-p {
-  font-size: 17px;
-  font-family: "Figtree", sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1.75;
-  color: #231C2B;
-}
-
-
-
-/*GENERAL SLIDESHOW CODE*/
-.square-slider-container {
-  width: 700px;
-  height: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  text-align: center; /* to align the slider buttons inside the container */
-}
-.image-container {
-  width: 7200px;
-  height: 700px;
-  position: relative;
-  transition: left 1s;
-  -webkit-transition: left 1s;
-  -moz-transition: left 1s;
-  -o-transition: left 1s;
-}
-.square-slider-image {
-  float: left;
-  margin: 0px;
-  padding: 0px;
-  width: 700px;
-  height: 700px;
-}
-.button-container {
-  top: -30px; /* so that the bttons show up on top of the slides, since we put the button-container right underneath the image-container in the html */
-  position: relative;
-}
-.slider-button {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
-  background-color: #F2EEE4;
-}
-
-/*COS SPOTIGHT*/
-#cos-spotlight-slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
-  left: 0px; /* this is where we start, so no need to move the image yet */
-}
-#cos-spotlight-slider-image-2:target ~ .image-container {
-  left: -700px; /* to move the image 800px to the left */
-}
-#cos-spotlight-slider-image-3:target ~ .image-container {
-  left: -1400px; 
-}
-#cos-spotlight-slider-image-4:target ~ .image-container {
-  left: -2100px; 
-}
-#cos-spotlight-slider-image-5:target ~ .image-container {
-  left: -2800px; 
-}
-#cos-spotlight-slider-image-6:target ~ .image-container {
-  left: -3500px; 
-}
-#cos-spotlight-slider-image-7:target ~ .image-container {
-  left: -4200px; 
-}
-#cos-spotlight-slider-image-8:target ~ .image-container {
-  left: -4900px; 
-}
-#cos-spotlight-slider-image-9:target ~ .image-container {
-  left: -5600px; 
-}
-
-/*GRAD 2024*/
-#grad-slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
-  left: 0px; /* this is where we start, so no need to move the image yet */
-}
-#grad-slider-image-2:target ~ .image-container {
-  left: -700px; /* to move the image 800px to the left */
-}
-#grad-slider-image-3:target ~ .image-container {
-  left: -1400px; 
-}
-#grad-slider-image-4:target ~ .image-container {
-  left: -2100px; 
-}
-#grad-slider-image-5:target ~ .image-container {
-  left: -2800px; 
-}
-#grad-slider-image-6:target ~ .image-container {
-  left: -3500px; 
-}
-#grad-slider-image-7:target ~ .image-container {
-  left: -4200px; 
-}
-#grad-slider-image-8:target ~ .image-container {
-  left: -4900px; 
-}
-#grad-slider-image-9:target ~ .image-container {
-  left: -5600px; 
-}
-#grad-slider-image-10:target ~ .image-container {
-  left: -6300px; 
-}
-
-/*SPACE DAY*/
-#space-day-slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
-  left: 0px; /* this is where we start, so no need to move the image yet */
-}
-#space-day-slider-image-2:target ~ .image-container {
-  left: -700px; /* to move the image 800px to the left */
-}
-#space-day-slider-image-3:target ~ .image-container {
-  left: -1400px; 
-}
-#space-day-slider-image-4:target ~ .image-container {
-  left: -2100px; 
-}
-#space-day-slider-image-5:target ~ .image-container {
-  left: -2800px; 
-}
-#space-day-slider-image-6:target ~ .image-container {
-  left: -3500px; 
-}
-#space-day-slider-image-7:target ~ .image-container {
-  left: -4200px; 
-}
-#space-day-slider-image-8:target ~ .image-container {
-  left: -4900px; 
-}
-#space-day-slider-image-9:target ~ .image-container {
-  left: -5600px; 
-}
-
-/*WELCOME BACK*/
-#welcome-slider-image-1:target ~ .image-container { /* to move the images to the left side of the screen, we will use a target selector along with the tilde "~" called the sibling combinator, which is imply used to target another div class */
-  left: 0px; /* this is where we start, so no need to move the image yet */
-}
-#welcome-slider-image-2:target ~ .image-container {
-  left: -700px; /* to move the image 800px to the left */
-}
-#welcome-slider-image-3:target ~ .image-container {
-  left: -1400px; 
-}
-#welcome-slider-image-4:target ~ .image-container {
-  left: -2100px; 
-}
-#welcome-slider-image-5:target ~ .image-container {
-  left: -2800px; 
-}
-#welcome-slider-image-6:target ~ .image-container {
-  left: -3500px; 
-}
-#welcome-slider-image-7:target ~ .image-container {
-  left: -4200px; 
-}
-#welcome-slider-image-8:target ~ .image-container {
-  left: -4900px; 
-}
 
 /* width */
 ::-webkit-scrollbar {
   width: 0px;
 }
-
-
-
-
-#grammy-image, #navy-cats-image, #moth-image, #ab-image, #hk-image, #el-commission-image {
-  width: 100vw;
-  float: left;
-
 
 .footer {
   height: 150px;

@@ -141,7 +141,7 @@ h1 {
 .avoid-background-image {
   width: 100vw;
   height: 90vh;
-  background-image: url("../../images/antenna.jpg");
+  background-image: url("../../images/abstract-squares.jpg");
   background-size: cover;
   opacity: 30%;
 }

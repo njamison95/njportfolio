@@ -33,24 +33,24 @@ nav {
 }
 .dropbtn {
   background-color: transparent;
-  font-size: 18px;
+  font-size: 16px;
   border: none;
   padding: 30px 60px;
   margin-right: 70px;
   font-family: "Anonymous Pro", monospace;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 1px;
   color: #F2EEE4;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  font-size: 18px;
+  font-size: 16px;
   display: none;
   position: absolute;
   background-color: #463857;
   font-family: "Anonymous Pro", monospace;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 1px;
   min-width: 173px;
@@ -79,6 +79,7 @@ nav {
   background-color: #463857;
   color: #F2EEE4;
 }
+
 .title {
   margin-top: auto;
   position: absolute;

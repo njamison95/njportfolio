@@ -193,7 +193,17 @@ h3 {
   color: white;
 }
 
-/*SOCIAl MEDIA GRID*/
+/*SOCIAl MEDIA BEST WORKS*/
+.social-content-container {
+  margin-top: 100px;
+}
+.page-titles {
+  font-size: 60px;
+  margin: 0px;
+  margin-left: 7vw;
+  margin-bottom: 50px;
+  color: #F2EEE4;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

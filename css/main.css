@@ -48,7 +48,7 @@ nav {
   font-size: 16px;
   display: none;
   position: absolute;
-  background-color: #463857;
+  background-color: #32283E;
   font-family: "Anonymous Pro", monospace;
   font-weight: 400;
   font-style: normal;
@@ -67,7 +67,7 @@ nav {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #EECD2A;
+  background-color: #F2EEE4;
   color: #212A4F;
 }
 
@@ -76,7 +76,7 @@ nav {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #463857;
+  text-decoration: underline;
   color: #F2EEE4;
 }
 .title {
@@ -164,19 +164,35 @@ p {
 footer {
   width: 100vw;
   height: 450px;
-  background-color: #32283E;
   margin-top: 100vh;
+  background-color: #282031;
 }
 h5 {
   font-size: 30px;
   line-height: 1.5;
   color: #F2EEE4;
 }
-.footer-text-container {
-  width: calc(100vw / 3);
+p {
+  margin: 0px auto;
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 1.75;
+  color: #F2EEE4;
+}
+.footer-text-container-1 {
+  width: 75%;
   height: 450px;
-  padding-top: 80px;
-  padding-left: 150px;
+  background-color: #282031;
+  padding-top: 50px;
+  padding-left: 120px;
+  float: left;
+}
+.footer-text-container-2 {
+  width: 25%;
+  height: 450px;
+  background-color: #282031;
+  padding-top: 50px;
+  padding-left: 70px;
   float: left;
 }
 .links-top {
@@ -191,4 +207,15 @@ h5 {
   font-size: 20px;
   line-height: 2;
   color: #F2EEE4;
+}
+
+/*pseudo-classes*/
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #F2EEE4;
+}
+a:hover {
+  color: #EECD2A;
 }

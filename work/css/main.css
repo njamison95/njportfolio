@@ -142,6 +142,9 @@ h1 {
 
 /*tile*/
 .container {
+  background-color: #32283E;
+  width: calc(100vw / 4);
+  height: calc(100vw / 4);
   position: relative;
   float: left;
   top: 0px;
@@ -285,7 +288,7 @@ h3 {
 }
 
 .poster-container {
-  width: 1050px;
+  width: 1200px;
   margin: 0px auto;
   margin-top: 100px;
   margin-bottom: 100px;
